@@ -1,0 +1,99 @@
+/* line 1, ../../../../xampp/htdocs/phcreativeblog/wp-content/themes/ph-groovy-blog-child/design-files/main/main.scss */
+.blog-style1 {
+   display: block;
+  padding: 0px 10px;
+  border: none;
+}
+.blog-style1 .entry-title
+ {
+  margin-top: 10px;
+}
+.blog-style1 .entry-title a
+ {
+   font-size: 21px; 
+}
+
+.blog-style1 .thumbnail-wrapper{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.blog-style1 .category-ribbon{
+  position: relative;
+  left: 0;
+  margin-bottom: 10px;
+}
+
+.feature-area-one-wrapper,.feature-area-two-wrapper{
+  background: #fff;
+}
+
+.feature-area-two-wrapper .featured-module-style2 .small{
+  align-items: center;
+}
+
+#secondary .widget{
+  background: #fff;
+  box-shadow: none;
+  padding: 7px;
+  margin-bottom: 0px;
+}
+
+.blog-style1 .post-details{
+background: white;
+position: relative;
+bottom: 15%;
+max-width: 85%;
+margin: auto;
+padding: 15px;
+/*# sourceMappingURL=main.css.map */
+}
+
+a:visited{
+  color: #3b3b3b;
+}
+
+div:focus{
+  border:solid 1px #ff0f4b;
+}
+.blog-style1 .thumbnail-wrapper {
+  position: relative;
+  width: 100%; /* adjust as necessary */
+  height: 270px; /* set your desired height */
+  overflow: hidden;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border-radius: 11px;
+  box-shadow:rgba(143, 143, 143, .5) 0px 8px 24px;
+}
+
+.blog-style1 .thumbnail-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+}
+
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the min width as needed */
+    gap: 20px; /* Adjust the gap between the grid items as needed */
+}
+
+.thumbnail-wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Set your desired height */
+    overflow: hidden;
+}
+
+.thumbnail-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
